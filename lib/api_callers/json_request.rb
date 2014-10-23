@@ -9,7 +9,7 @@ module ApiCallers
     private
 
     def clean_response_body(response_body)
-     response_body.gsub('\"','').force_encoding(CHARSET)
+      response_body.gsub('\"','').force_encoding(CHARSET)
     end
   end
 end
